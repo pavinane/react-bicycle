@@ -1,0 +1,123 @@
+.navigation{
+    // display: grid;
+    // grid-template-rows: repeat(2 ,50px);
+    background-image: url(./images/cyimg.jpg);
+    height: 700px;  
+    width: 1700px;
+    margin: 0 auto;
+    .sub-navi{
+        border-bottom: 4px solid gray;
+        .navi-bar{
+            width: 1000px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            margin: 0 Auto;
+            height: 105px;
+            .menu{
+                // text-align: end;
+                i{
+                    padding: 35px 20px;
+                    font-size: 30px;
+                }
+            }
+            .logo{
+                .short{
+                    img{
+                        width: 200px;
+                        margin: 0px 150px ;
+                    }
+                }
+            }
+            .profile{
+                .sub-pro{
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr;
+                    width: 200px;
+                    margin: 20px ;
+                    
+                    i{
+                        font-size: 30px;
+                        padding:  12px 20px;
+                    }
+                    .short{
+                        
+                        img{
+                            width: 50px;
+                            height: 50px;
+                            border-radius: 50%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .navi-2{
+        .sub-navi2{
+            display: grid;
+            grid-template-columns:1fr 2fr 1fr;
+         
+            .left{
+                i{
+                    font-size: 40px;
+                   position: relative;
+                   top: 250px;
+                }
+            }
+            .middle{
+                // text-align: center;
+                width: 1000px;
+                margin: 80px auto;
+                font-size: 20px;
+                
+                .sub-midd{
+                    margin: 50px 0px;
+                    .sm-1{
+                      
+                        h1{
+                            width: 250px;
+                            // text-align: center
+                            color: rgb(0, 38, 255);
+                        }
+                        span{
+                            text-transform: uppercase;
+                            font-size: 15px;
+                            color: #fff;
+                        }
+                    }
+                    .sm-icon{
+                        color: white;
+                        position: relative;
+                        top: 50px;
+                        i{
+                            padding: 0px 10px;
+                            font-size: 30px;
+                        }
+                    }
+                    button{
+                        width: 120px;
+                        height: 50px;
+                        background: #b2d103;
+                        border: none;
+                        color: white;
+                        position: relative;
+                        top: 100px;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                        font-size: 15px;
+                        // margin: 0 10px;
+                    }
+                }
+            }
+            .right{
+
+                text-align: end;
+                i{
+                    font-size: 40px;
+                   position: relative;
+                   top: 250px;
+                }
+            }
+        }
+    }
+   
+}
