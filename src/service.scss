@@ -1,0 +1,118 @@
+.service{
+    width: 1600px;
+    margin: 0 auto;
+    height: 600px;
+    background-image: url(./images/rider1.jpg);
+    // opacity: 0.5;
+    .riding{
+        width: 1200px;
+        // background: orange;
+        margin : 0 auto;
+        height: 600px;
+        color:white;
+        position: relative;
+        top: 50px;
+       .title{
+           text-transform: uppercase;
+           font-size: 20px;
+       }
+       .differ{
+           width: 1200px;
+        //    background:pink;
+           height: 400px;
+        //    
+           .bikes{
+                display: grid;
+                grid-template-columns:repeat(3,325px);
+                width: 1000px;
+                grid-gap:50px;
+                // margin: 0 auto;
+                position: relative;
+                top: 50px;
+                height: 300px;
+                // background:lightgrey;
+               .recreation{
+                   background:lightskyblue;
+                   padding: 0 20px;
+                   .sm-icon{
+                        .name{
+                            font-size: 30px;
+                            padding:5px 10px;
+                            color: lime;
+                            i.fas.fa-bicycle {
+                                border-bottom: 2px solid green;
+                            //    border-bottom: 1px solid red;
+                            }
+                        }
+                    }
+                    .in-box1{
+                        // width: 250px;
+                       margin: 10px 0px;
+                        h2{
+                            text-transform: uppercase;
+                            width: 200px;
+                            font-size: 23px;
+                            padding: 10px 0px;
+                        }
+                    }
+               }
+               .personally{
+                    padding:0 20px;
+                    background: lightsteelblue;
+                   .sm-icon{
+                       .name{
+                        color:lime;
+                           .fas {
+                               font-size: 20px;
+                               padding:10px;
+                            //    border-bottom: 1px solid red;
+                           }
+                       }
+                   }
+                   .in-box2{
+                        margin: 10px 10px;
+                        h1{
+                            text-transform: uppercase;
+                            width: 200px;
+                            font-size: 23px;
+                            padding: 10px 0px;
+                            // color: red;
+                        }
+                    }
+               }
+               .wide-range{
+                   background: lightsalmon;
+                padding: 0 20px;
+                    .sm-icon{
+                        width: 50px;
+                        display: grid;
+                        grid-template-columns: 1fr 1fr;
+                       
+                        .name{
+                            color:lime;
+                            .fas {
+                                font-size: 20px;
+                                padding:10px;
+                            //    border-bottom: 1px solid red;
+                            }
+                        }
+                    }
+                    .in-box3{
+                        margin: 10px 10px;
+                        h1{
+                            text-transform: uppercase;                          
+                            font-size: 23px;
+                            padding: 10px 0px;
+                        }
+                    }                   
+               }
+           }
+       }
+    //    .differ:hover{
+    //     background: purplr;
+    //        .bikes{
+    //            background: red;
+    //        }
+    //    }
+    }
+}
