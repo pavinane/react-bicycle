@@ -7,6 +7,7 @@ const Option = () => (
       <div className="head">
         <h1>
 rent a bike from
+          {' '}
           <b>anywhere</b>
         </h1>
         <p>
@@ -14,7 +15,9 @@ rent a bike from
            quae hic officiisreprehenderit fugit totam ducimus. Voluptas nisi dolorem aliquam,
         </p>
         <button type="button">learn more</button>
+
       </div>
+      <div className="end" />
     </div>
   </div>
 );
