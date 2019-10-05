@@ -4,6 +4,7 @@ import Navigation from './Navigation';
 import Models from './Models';
 import Service from './Service';
 import Notice from './Notice';
+import Option from './Option';
 
 
 const App = () => (
@@ -12,6 +13,9 @@ const App = () => (
     <Models />
     <Service />
     <Notice />
+    <Option />
+
+
   </div>
 );
 export default App;

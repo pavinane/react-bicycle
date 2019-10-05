@@ -32,7 +32,7 @@ const Gr2 = ({ head, para }) => (
   </div>
 );
 const Gr3 = () => (
-  <div className="gr-1">
+  <div className="gr-3">
     <img src={image1} alt="" />
     <div className="span">
       <Change
@@ -42,10 +42,17 @@ const Gr3 = () => (
     </div>
   </div>
 );
-const Gr4 = ({ head, para }) => (
-  <div className="gr-2">
-    <h1>{head}</h1>
-    <p>{para}</p>
+const Gr4 = ({ sym }) => (
+  <div className="gr-4">
+    {sym.map((ic) => (
+      <div className="name">
+        <h3>
+          <i className={`fas fa-${ic.icon}`} />
+          {ic.name}
+        </h3>
+      </div>
+    ))}
+    <button type="button"> learn more</button>
   </div>
 );
 const Gr5 = ({ head, para }) => (
@@ -101,7 +108,20 @@ const Notice = () => (
             para="Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti eos, molestias eveniet quas blanditiis provident aut"
           />
           <Gr3 />
-          <Gr4 />
+          <Gr4
+            sym={[
+              {
+                icon: 'map-marker-alt', name: 'bristrol,uk',
+
+              },
+              {
+                icon: 'far fa-calendar', name: 'aug 23 - aug 28',
+              },
+              {
+                icon: 'clock', name: '12:00 pm - 22:00 pm',
+              },
+            ]}
+          />
           <Gr5
             head="christmas charity race"
             para="Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti eos, molestias eveniet quas blanditiis provident aut"
