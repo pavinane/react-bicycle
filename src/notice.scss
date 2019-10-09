@@ -33,7 +33,7 @@
             }
         }
         .template{
-            background: red;
+            // background: red;
             height: 550px;
             position: relative;
             top: 80px;
@@ -45,16 +45,14 @@
                 // grid-gap: 10px;
                 .gr-1{
                     background: green;
-                    
-                    img{
-                        width:100%;
-                    }
+                    background-image: url(./images/no1.jpeg);
+                 
                   .span{
                       background: gray;
                       width: 55px;
                       height: 55px;
                       position: relative;
-                      bottom: 199px;
+                    //   bottom: 199px;
                       left: 238px;
                       font-size: 15px;
                       text-align: center;
@@ -75,7 +73,7 @@
                     }
                 }
                 .gr-3{
-                    background: green;
+                    background-image:url(./images/no2.jpeg);
                     border: 8px solid white;
                     img{
                         width:100%;
@@ -85,7 +83,7 @@
                       width: 55px;
                       height: 55px;
                       position: relative;
-                      bottom: 195px;
+                    //   bottom: 195px;
                       left: 230px;
                       font-size: 15px;
                       text-align: center;
@@ -119,23 +117,33 @@
                     }
                 }
                 .gr-6{
-                    background: green;
-                    
-                    img{
-                        width:100%;
-                    
-                    }
+                    background-image: url(./images/no5.jpeg);
+                  
                   .span{
                       background: gray;
                       width: 55px;
                       height: 55px;
                       position: relative;
-                      bottom: 199px;
+                    //   bottom: 199px;
                       font-size: 15px;
                       text-align: center;
                       text-transform: uppercase;
                       color: white;
                    }
+                }
+                .gr-8{
+                    background-image: url(./images/no4.jpeg);
+                    .span{
+                        background: gray;
+                        width: 55px;
+                        height: 55px;
+                        position: relative;
+                      //   bottom: 199px;
+                        font-size: 15px;
+                        text-align: center;
+                        text-transform: uppercase;
+                        color: white;
+                     }
                 }
 
                 

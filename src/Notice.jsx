@@ -1,8 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import './notice.scss';
-import image1 from './images/no1.jpeg';
-// import image2 from './images/no2.jpeg';
+// import image1 from './images/no1.jpeg';
+// import image2 from './images/no3.jpeg';
 
 const Change = ({ day, month }) => (
   <div change="change">
@@ -12,7 +12,7 @@ const Change = ({ day, month }) => (
 );
 const Gr1 = () => (
   <div className="gr-1">
-    <img src={image1} alt="" />
+    {/* <img src={image1} alt="" /> */}
     <div className="span">
       <Change
         day="12"
@@ -25,15 +25,12 @@ const Gr2 = ({ head, para }) => (
   <div className="gr-2">
     <h1>{head}</h1>
     <p>{para}</p>
-    {/* <Change
-      day="12"
-      month="aug"
-    /> */}
+
   </div>
 );
 const Gr3 = () => (
   <div className="gr-3">
-    <img src={image1} alt="" />
+    {/* <img src={image1} alt="" /> */}
     <div className="span">
       <Change
         day="23"
@@ -63,7 +60,7 @@ const Gr5 = ({ head, para }) => (
 );
 const Gr6 = () => (
   <div className="gr-6">
-    <img src={image1} alt="" />
+    {/* <img src={image2} alt="" /> */}
     <div className="span">
       <Change
         day="25"
@@ -79,8 +76,8 @@ const Gr7 = ({ head, para }) => (
   </div>
 );
 const Gr8 = () => (
-  <div className="gr-6">
-    <img src={image1} alt="" />
+  <div className="gr-8">
+    {/* <img src={image1} alt="" /> */}
     <div className="span">
       <Change
         day="31"

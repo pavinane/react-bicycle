@@ -32,7 +32,7 @@
                 height: 300px;
                 // background:lightgrey;
                .recreation{
-                   background:lightskyblue;
+               
                    padding: 0 20px;
                    .sm-icon{
                         .name{
@@ -58,7 +58,7 @@
                }
                .personally{
                     padding:0 20px;
-                    background: lightsteelblue;
+                    // background: lightsteelblue;
                    .sm-icon{
                        .name{
                         color:lime;
@@ -81,7 +81,7 @@
                     }
                }
                .wide-range{
-                   background: lightsalmon;
+                //    background: lightsalmon;
                 padding: 0 20px;
                     .sm-icon{
                         width: 50px;
@@ -108,11 +108,6 @@
                }
            }
        }
-    //    .differ:hover{
-    //     background: purplr;
-    //        .bikes{
-    //            background: red;
-    //        }
-    //    }
+    
     }
 }

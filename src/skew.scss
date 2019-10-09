@@ -1,0 +1,198 @@
+.news-cover{
+    width: 1600px;
+    background: blue;
+    margin: 0 auto;
+    height: 900px;
+    .body{
+        width: 1200px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-rows: 150px 750px;
+        background: pink;
+        .header{
+            color: gray;
+            text-transform: uppercase;
+            padding-top: 50px;
+            background: lightblue;
+        }
+        .part{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap: 10px;
+            height: 750px;
+            .part-1{
+                background: yellow;
+                // display:grid;
+                // grid-template-areas: 1fr 1fr;
+                background-image:url(./images/no4.jpeg); 
+                .con-1{
+                    background: white;
+                    // width: 200px;
+                    // min-height: 200px;
+                    -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+                    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 15%, 90% 0%);
+                    // background: lightblue;
+                    position: relative;
+                    top: 50%;
+                    height: 50%;
+                    
+                    
+                    .sub-con{
+                        position: relative;
+                        top: 20px;
+                        // text-align: center;
+                        text-transform: uppercase;
+                        padding: 30px 10px;
+                        h1{
+                            font-size: 25px;
+                            color: rgb(184, 179, 179);
+                        }
+                        .new{
+                            display:grid;
+                            grid-template-columns: 50% 25% 25%;
+                            position: relative;
+                            top: 20px;
+                            // padding: 10px ;
+                            font-size: 20px;
+                            
+                        }
+                        p{
+                            text-transform: lowercase;
+                            // text-align: justify;
+                            position: relative;
+                            top: 50px;
+                            width: 300px;
+                            line-height: 30px;
+
+                        }
+                        button{
+                            position: relative;
+                            top: 100px;
+                            width: 150px;
+                            height: 50px;
+                            text-transform: uppercase;
+                            border: none;
+                            color: rgb(8, 0, 0);
+                            background: lightgreen;
+                            font-size: 15px;
+                            text-align: start;
+                        }
+                    }
+                }
+            }
+           
+            .part-2{
+                   
+                background-image:url(./images/no5.jpeg); 
+                .con-2{
+                    -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+                    clip-path: polygon(0 0, 0 100%, 90% 100%, 100% 85%, 100% 0%);
+                  
+                    background: white;
+                    position: relative;
+                    // top: 50%;
+                    height: 50%;
+                    .sub-con2{
+                        position: relative;
+                        top: 20px;
+                        // text-align: center;
+                        text-transform: uppercase;
+                        padding: 30px 10px;
+                        h1{
+                            font-size: 25px;
+                            color: rgb(184, 179, 179);
+                        }
+                        .new{
+                            display:grid;
+                            grid-template-columns: 50% 25% 25%;
+                            position: relative;
+                            top: 20px;
+                            // padding: 10px ;
+                            font-size: 20px;
+                            
+                        }
+                        p{
+                            text-transform: lowercase;
+                            // text-align: justify;
+                            position: relative;
+                            top: 50px;
+                            width: 300px;
+                            line-height: 30px;
+
+                        }
+                        button{
+                            position: relative;
+                            top: 100px;
+                            width: 150px;
+                            height: 50px;
+                            text-transform: uppercase;
+                            border: none;
+                            color: rgb(8, 0, 0);
+                            background: lightgreen;
+                            font-size: 15px;
+                            text-align: start;
+                        }
+                    }
+                }
+                
+            }
+            .part-3{
+    
+                background-image:url(./images/no4.jpeg); 
+                .con-3{
+                    background: white;
+                    // width: 200px;
+                    // min-height: 200px;
+                    -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+                    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 15%, 90% 0%);
+                  
+                    position: relative;
+                    top: 50%;
+                    height: 50%;
+                    .sub-con3{
+                        position: relative;
+                        top: 20px;
+                        // text-align: center;
+                        text-transform: uppercase;
+                        padding: 30px 10px;
+                        h1{
+                            font-size: 25px;
+                            color: rgb(184, 179, 179);
+                        }
+                        .new{
+                            display:grid;
+                            grid-template-columns: 50% 25% 25%;
+                            position: relative;
+                            top: 20px;
+                            // padding: 10px ;
+                            font-size: 20px;
+                            
+                        }
+                        p{
+                            text-transform: lowercase;
+                            // text-align: justify;
+                            position: relative;
+                            top: 50px;
+                            width: 300px;
+                            line-height: 30px;
+
+                        }
+                        button{
+                            position: relative;
+                            top: 100px;
+                            width: 150px;
+                            height: 50px;
+                            text-transform: uppercase;
+                            border: none;
+                            color: rgb(8, 0, 0);
+                            background: lightgreen;
+                            font-size: 15px;
+                            text-align: start;
+                        }
+                    }
+                }
+            }
+           
+        }
+    }
+}

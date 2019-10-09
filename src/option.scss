@@ -1,21 +1,27 @@
 .option{
     width: 1600px;
-    height: 600px;
-    background: rgb(154, 175, 187);
+    height: 700px;
+    background: rgb(211, 35, 235);
     margin: 0  auto;
+    background-image: url(./images/op1.jpeg);
+    background-repeat: no-repeat;
+    display: grid;
+    // grid-template-areas:  
     .slide{
+        width: 1200px;
+        margin: 0 auto;
         display: grid;
-        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
         height: 400px;
         .head{
             width: 300px;
             position: relative;
             top:80px;
-            height: 500px;
+            height: 320px;
             color: white;
             h1{
                 text-transform: uppercase;
-                // padding:50px 0;
+                // padding:50px 0;             
                 b{
                     color: rgb(47, 255, 47);
                 }
@@ -36,9 +42,81 @@
             text-transform: uppercase;
             font-size: 15px;
         }
-        .end{
-            background:white;
-            height: 100px;
-        }
+      
+        
+    }
+    .end{
+        background:white;
+        height: 200px;
+        position: relative;
+        top: 50px;
+       .user{
+       
+            width: 1200px;
+            margin: 0 auto;
+            position: relative;
+            top: 30px;
+            font-size:10px;
+           .icon{      
+                display: grid;
+                grid-template-columns: repeat(3,200px);
+                grid-gap:20px;
+                color:white;
+                text-transform: uppercase;
+                .apple{
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    width:200px;
+                    text-align: center;
+                    // height: 50px;
+                    
+                    i{
+                        background: black;
+                        font-size: 24px;
+                        padding: 20px 0px;
+                    }
+                    h2{
+                        background: rgba(2, 2, 8, 0.774);
+                        width: 150px;
+                        padding: 23px 0px;
+                    }
+                }
+                .android{
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    width:200px;
+                    text-align: center;
+                    // padding: 10px;
+                
+                    i{
+                        background: rgba(10, 185, 133, 0.794);
+                        font-size: 24px;
+                        padding: 20px 0px;
+                    }
+                    h2{
+                        background: rgb(17, 166, 177);
+                        width: 150px;
+                        padding: 23px 0px;
+                    }
+                }
+                .window{
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    width:200px;
+                    text-align: center;
+                
+                    i{
+                        background: rgb(16, 106, 209);
+                        font-size: 24px;
+                        padding: 20px 0px;
+                    }
+                    h2{
+                        background: rgb(20, 152, 192);
+                        width: 150px;
+                        padding: 23px 0px;
+                    }
+                }
+           }
+       }
     }
 }

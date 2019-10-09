@@ -1,5 +1,6 @@
 import React from 'react';
 import './option.scss';
+// import gif from './images/op2.gif';
 
 const Option = () => (
   <div className="option">
@@ -17,7 +18,25 @@ rent a bike from
         <button type="button">learn more</button>
 
       </div>
-      <div className="end" />
+
+    </div>
+    <div className="end">
+      <div className="user">
+        <div className="icon">
+          <div className="apple">
+            <i className="fab fa-apple" />
+            <h2>iphone store</h2>
+          </div>
+          <div className="android">
+            <i className="fab fa-google-play" />
+            <h2>google play</h2>
+          </div>
+          <div className="window">
+            <i className="fab fa-windows" />
+            <h2>window store</h2>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 );

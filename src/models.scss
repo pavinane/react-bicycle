@@ -47,22 +47,22 @@
                    display: grid;
                    grid-template-rows: 1fr 1fr 2fr 2fr;
                    .img{
-                        height: 250px;
+                        // height: 250px;
                         img{
-                            width: 280px;
-                            height: 250px;
+                            width: 160 px;
+                            height: 190px;
                         }
                         h3{
                             text-transform: uppercase;
-                            position: relative;
-                            bottom: 240px;
+                            // position: relative;
+                            // bottom: 240px;
                             left: 10px;
                             color: gray;
                         }
                    }    
                     .sm-icon{
                         position: relative;
-                        bottom: 60px;
+                        bottom: 10px;
                         .ic{
                             .name{
                                 float: left;

@@ -49,8 +49,9 @@ const Table3 = () => (
 const Images1 = ({ img1 }) => (
   <div className="image-block">
     <div className="img">
-      <img src={img1} alt="" />
       <h3>fr/dh</h3>
+      <img src={img1} alt="" />
+
       <Icon
         ic={[
           {
@@ -79,8 +80,9 @@ const Images1 = ({ img1 }) => (
 const Images2 = ({ img2 }) => (
   <div className="image-block">
     <div className="img">
-      <img src={img2} alt="" />
       <h3>fr/dh</h3>
+      <img src={img2} alt="" />
+
       <Icon
         ic={[
           {
@@ -105,8 +107,9 @@ const Images2 = ({ img2 }) => (
 const Images3 = ({ img3 }) => (
   <div className="image-block">
     <div className="img">
-      <img src={img3} alt="" />
       <h3>fr/dh</h3>
+      <img src={img3} alt="" />
+
       <Icon
         ic={[
           {
@@ -131,8 +134,9 @@ const Images3 = ({ img3 }) => (
 const Images4 = ({ img4 }) => (
   <div className="image-block">
     <div className="img">
-      <img src={img4} alt="" />
       <h3>fr/dh</h3>
+      <img src={img4} alt="" />
+
       <Icon
         ic={[
           {

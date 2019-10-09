@@ -5,7 +5,7 @@ import Models from './Models';
 import Service from './Service';
 import Notice from './Notice';
 import Option from './Option';
-
+import Skew from './Skew';
 
 const App = () => (
   <div className="app">
@@ -14,7 +14,7 @@ const App = () => (
     <Service />
     <Notice />
     <Option />
-
+    <Skew />
 
   </div>
 );
